@@ -1,0 +1,17 @@
+vista\NuevaFactura$1.class
+vista\ProductoView.class
+vista\Principal.class
+controlador\ProductoController.class
+mvc\Productos.class
+vista\Principal$1.class
+modelo\Detalles.class
+modelo\Facturas.class
+vista\NuevaFactura$2.class
+vista\NuevaFactura$4.class
+vista\Principal$2.class
+modelo\Database.class
+vista\NuevaFactura$3.class
+vista\NuevaFactura$5.class
+modelo\Producto.class
+mvc\PruebaTecnica.class
+vista\NuevaFactura.class
