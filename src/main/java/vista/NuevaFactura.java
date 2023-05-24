@@ -632,11 +632,13 @@ public class NuevaFactura extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        if(numFactura.getText()=="" || IDPersona.getText()==""){
-            
+        if(numFactura.getText()!="" && IDPersona.getText()!="" && nombre.getText()!="" && tIVA.getText()!="" && tdescuento.getText()!=""){
+            CrearFactura();
+            CargarTabla1();
+        }else{
+            JOptionPane.showMessageDialog(null, "Por favor, rellene todos los campos");
         }
-        CrearFactura();
-        CargarTabla1();
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -658,6 +660,7 @@ public class NuevaFactura extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+        ActualizarFactura ();
         Principal nuevaVentana = new Principal();
         nuevaVentana.setVisible(true);
         
